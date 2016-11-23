@@ -1,0 +1,265 @@
+/* ----- Base Styles ----- */
+
+html {
+	background-color: #1A1E1F;
+}
+
+body {
+	background-color: #1A1E1F;
+}
+
+button:focus {
+	outline: none !important;
+}
+
+a {
+    outline: none !important;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	color: red;
+}
+
+
+
+
+/* ----- Base Class Styles ----- */
+
+.wrap {
+	background-color: #1A1E1F;
+}
+
+.container-fluid {
+	background-color: #1A1E1F;
+}
+
+.container {
+	width: 100%;
+	background-color: none;
+}
+
+
+
+
+/* ----- HEADER STYLES ----- */
+
+.first-navbar{
+  position: relative;
+}
+
+.second-navbar{
+  position: absolute;
+  top: 90px;
+  width: 100%
+}
+
+.navbar-dark {
+	background-color: #1A1E1F;
+}
+
+.nav-item {
+	padding: 0 12px;
+	font-weight: 200;
+}
+
+#nav-logo {
+	height: 80px;
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid #777777;
+}
+
+
+
+
+/* ----- BODY STYLES ----- */
+
+#jumbo-container {
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid red;
+	border-radius: 0px;
+}
+
+#about-section {
+	background-color: #EEEDE8;
+}
+
+#underscore {
+	color: red;
+}
+
+.image {
+	max-height: 200px;
+}
+
+#tickImage {
+	height: 250px;
+}
+
+/* Book theory */
+
+#bookTheory {
+	background-color: white;
+}
+
+/* Book Theory - COMPUTER ICON */
+
+#computer-image {
+	max-width: 450px;
+}
+
+/* Book Practical */
+
+#bookPractical {
+	background-color: white;
+	border-top: 10px solid #1A1E1F;
+}
+
+#car-image-box {
+	position: relative;
+}
+
+#car-image {
+	float: right;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+/* Contact Me */
+
+#contact {
+	background-color: #626262;
+	border-top: 10px solid #1A1E1F;
+}
+
+#light-grey {
+	color: #dee1e3;
+}
+
+.dark-red {
+	color: #e90e0a;
+}
+
+.red {
+	color: red;
+}
+
+
+
+
+/* ----- FOOTER STYLES ----- */ 
+
+/* ----- FOOTER ----- */
+
+#footer {
+	border-top: 1px solid red;
+}
+
+#nav-logo {
+	height: 80px;
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid #777777;
+}
+
+#backToTop {
+	color: red;
+}
+
+.grey {
+	color: #b3b6bf;
+}
+
+.dark-grey {
+	color: #1A1E1F;
+}
+
+.right {
+	float: right;
+}
+
+.contactMe {
+	color: black;
+}
+
+
+
+
+/* ----- MODAL STYLES ----- */
+
+.modal-backdrop {
+   background-color: black;
+   opacity: 8;
+}
+
+.modal-content {
+	background-color: #dee1e3;
+	border-radius: 10px;
+}
+
+.modal-header {
+	background-color: #1A1E1F;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top: 3px solid grey;
+	border-left: 3px solid grey;
+	border-right: 3px solid grey;
+}
+
+.modal-body {
+	border-left: 3px solid grey;
+	border-right: 3px solid grey;
+}
+
+#modal-logo {
+	height: 50px;
+	padding: 5px 0 5px 0;
+	border-bottom: 1px solid #777777;
+}
+
+.white {
+	color: white;
+}
+
+.modal-footer {
+	background-color: #1A1E1F;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom: 3px solid grey;
+	border-left: 3px solid grey;
+	border-right: 3px solid grey;
+}
+
+.home-icon {
+	height: 50px;
+}
+
+.modalCar {
+	height: 15px;
+}
+
+.sendIcon {
+	height: 25px;
+	margin-right: 55%;
+}
+
+
+
+/* ----- MEDIA QUERY STYLES ----- */
+
+@media (min-width: 350px) {
+    .navbar-centered .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .navbar-centered .navbar-nav > li {
+        float: none;
+    }
+    .navbar-centered .nav > li {
+        display: inline;
+    }
+    .navbar-centered .nav > li > a {
+        display: inline-block;
+    }
+}
